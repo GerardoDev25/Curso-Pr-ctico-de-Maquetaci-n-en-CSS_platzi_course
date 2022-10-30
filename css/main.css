@@ -28,8 +28,8 @@ header .header-icons-container {
   background-color: #47cfac;
 }
 
-header .header-icons-container .icons{
-  width: 400px;
+header .header-icons-container .icons {
+  width: 300px;
   height: auto;
   display: flex;
   justify-items: flex-end;
@@ -37,6 +37,8 @@ header .header-icons-container .icons{
   justify-content: space-between;
   justify-self: end;
   margin-right: 50px;
-  
 }
 
+header .icons span {
+  color: white;
+}
