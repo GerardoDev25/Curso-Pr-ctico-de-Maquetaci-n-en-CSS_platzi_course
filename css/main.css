@@ -74,6 +74,10 @@ nav .profile-link a {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   height: 100%;
+  background-image: url('../assets/img/Cover.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .home-main section {
@@ -84,10 +88,10 @@ nav .profile-link a {
   margin-top: 80px;
 }
 
-.home-main-text{
+.home-main-text {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 5px;
-  color: black;
+  color: white;
   text-align: center;
 }
